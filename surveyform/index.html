@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=devicei-width, initial-scale=1">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="containter">
+            <section class="survey">
+                <h1 id="title">Survey Form</h1>
+                <p id="description">Hello! Thank you for your interest! Please fill out this form with the required information and I will get back to you within 2-3 business days.</p>
+                <form id="survey-form">
+                    <fieldset>
+                        <label for="first-name" id="name-label">Name <input id="name" name="first-name" type="text" placeholder="First" required></label>
+                        <label for="last-name"><input id="last-name" name="last-name" type="text" placeholder="Last" required></label>
+                        <label for="username"><input id="username" name="username" type="text" placeholder="Username (+platform)"></label>
+                        <label for="email" id="email-label">Email <input id="email" name="email" type="email" placeholder="abc@123.xyz" required></label>
+                        <label for="number" id="number-label">Contact Number <input id="number" name="number" type="number" placeholder="0123-456-7890" pattern="[0-9]{7,15}" min="0" max="999999999999999"></label>
+                        <fieldset>
+                            <legend>How would you like me to contact you?</legend>
+                            <label><input id="via-email" type="radio" name="contact" value="via-email" checked> Email</label>
+                            <label><input id="via-number" type="radio" name="contact" value="via-number"> Contact number</label>
+                        </fieldset>
+                        <label for="address">Address (Business, if applicable) <input id="address" name="address" type="text"></label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="referrer">How did you hear about us?
+                            <select id="dropdown" name="referrer">
+                              <option value="0">(select one)</option>
+                              <option value="1">Social Media Site</option>
+                              <option value="2">Portfolio</option>
+                              <option value="3">Peers</option>
+                              <option value="4">Other</option>
+                            </select>
+                          </label>
+                        <label for="date">Date Due <input id="date" name="date" type="date"></label>
+                        <label for="time">Time Due (if applicable) <input id="time" name="time" type="time"></label>
+                        <fieldset>
+                            <legend>What kind of service are you interested in? </legend>
+                            <label for="emotes"><input id="emotes" name="emotes"  value="emotes" type="checkbox"> Emotes</label>
+                            <label for="2d-cc"><input id="2d-cc" name="2d-cc" value="2d-cc" type="checkbox"> 2D Character</label>
+                            <label for="2d-bg"><input id="2d-bg" name="2d-bg" value="2d-bg" type="checkbox"> 2D Background</label>
+                            <label for="3d-cc"><input id="3d-cc" name="3d-cc" value="3d-cc" type="checkbox"> 3D Character</label>
+                            <label for="3d-bg"><input id="3d-bg" name="3d-bg" value="3d-bg" type="checkbox"> 3D Background</label>
+                            <label for="webdev"><input id="webdev" name="webdev" value="webdev" type="checkbox"> Web Development</label>
+                            <label for="gamedev"><input id="gamedev" name="gamedev" value="gamedev" type="checkbox"> Game Development</label>
+                            <label for="other"><input id="other" name="other" value="other" type="checkbox"> Others</label>
+                        </fieldset>
+                        <label for="specifics">Description of your request <textarea id="specifics" name="specifics" rows="4" cols="40"></textarea></label>
+                    </fieldset>
+                    <input id="submit" type="submit" value="Submit">
+                    <p id="closing">I appreciate your business!</p>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
