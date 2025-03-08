@@ -1,0 +1,44 @@
+[
+  {
+    "color": "black",
+    "type": "cat",
+    "size": "nano",
+    "name": "Ako"
+  },
+  {
+    "color": "orange",
+    "type": "cat",
+    "size": "nano",
+    "name": "Kiira"
+  },
+  {
+    "color": "white",
+    "type": "cat",
+    "size": "nano",
+    "name": "Eli"
+  },
+  {
+    "color": "white",
+    "type": "cat",
+    "size": "nano",
+    "name": "Kitsune"
+  },
+  {
+    "color": "lightbrown",
+    "type": "cat",
+    "size": "nano",
+    "name": "yoshi"
+  },
+  {
+    "color": "white",
+    "type": "cat",
+    "size": "nano",
+    "name": "Megitsune"
+  },
+  {
+    "color": "white",
+    "type": "cat",
+    "size": "nano",
+    "name": "Zed"
+  }
+]
