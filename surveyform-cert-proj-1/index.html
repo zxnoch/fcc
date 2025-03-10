@@ -15,7 +15,7 @@
                 <h1 id="title">Survey Form</h1>
                 <p id="greeting">Hello! Thank you for your interest!</p>
                 <p id="description">Please fill out this form with the required information and I will get back to you within 2-3 business days.</p>
-                <form id="survey-form">
+                <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
                     <fieldset>
                         <label for="first-name" id="name-label">Name <input id="name" name="first-name" type="text" placeholder="First" required></label>
                         <label for="last-name"><input id="last-name" name="last-name" type="text" placeholder="Last" required></label>
@@ -31,7 +31,7 @@
                     </fieldset>
                     <fieldset>
                         <label for="referrer">How did you hear about us?
-                            <select id="dropdown" name="referrer">
+                            <select id="dropdown" name="referrer" required>
                               <option value="0">(select one)</option>
                               <option value="1">Social Media Site</option>
                               <option value="2">Portfolio</option>
@@ -41,7 +41,7 @@
                           </label>
                         <label for="date">Date Due <input id="date" name="date" type="date"></label>
                         <label for="time">Time Due (if applicable) <input id="time" name="time" type="time"></label>
-                        <fieldset >
+                        <fieldset>
                             <legend>What kind of service are you interested in? </legend>
                             <label for="emotes"><input id="emotes" name="emotes"  value="emotes" type="checkbox" class="inline"> Emotes</label>
                             <label for="2d-cc"><input id="2d-cc" name="2d-cc" value="2d-cc" type="checkbox" class="inline"> 2D Character</label>
