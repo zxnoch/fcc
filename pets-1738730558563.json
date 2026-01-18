@@ -40,5 +40,11 @@
     "type": "cat",
     "size": "nano",
     "name": "Zed"
+  },
+  {
+    "color": "orange",
+    "type": "cat",
+    "size": "nano",
+    "name": "Cuming"
   }
 ]
